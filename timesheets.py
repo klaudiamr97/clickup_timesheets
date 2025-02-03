@@ -21,7 +21,7 @@ def fetch_task_by_id(task_id):
     url = f"https://api.clickup.com/api/v2/task/{task_id}" 
     headers = {
         "accept": "application/json",
-        "Authorization": "authorization_token"
+        "Authorization": {authorization_token}
     }
     
     while True:
