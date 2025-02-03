@@ -8,11 +8,11 @@ def send_email(output_file):
 
     subject = "Agency timesheets"
     body = "Attached is the CSV with timesheets for last month"
-    sender_email = "sender_email"
-    recipient_email = "recipient_email"
-    sender_password = "sender_password"
-    smtp_server = 'smtp_server'
-    smtp_port = 465
+    sender_email = {sender_email}
+    recipient_email = {recipient_email}
+    sender_password = {sender_password}
+    smtp_server = {smtp_server}
+    smtp_port = {smtp_port}
 
     message = MIMEMultipart()
     message['Subject'] = subject
