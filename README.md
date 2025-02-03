@@ -41,5 +41,5 @@ All sensitive data has been replaced with placeholders.
 This project is open-source and available under the MIT License.
 
 ## Contact
-For any inquiries, feel free to reach out via [your email/contact info].
+For any inquiries, feel free to reach out via klaudia.mr97@gmail.com.
 
