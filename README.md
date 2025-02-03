@@ -34,6 +34,9 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## Note
+All sensitive data has been replaced with placeholders.
+
 ## License
 This project is open-source and available under the MIT License.
 
