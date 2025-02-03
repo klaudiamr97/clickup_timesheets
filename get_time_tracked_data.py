@@ -8,12 +8,12 @@ def covert_date_to_milliseconds(date_string):
     return unix_milliseconds
 
 def fetch_task_ids(start_date, end_date):
-    url=f"https://api.clickup.com/api/v2/team/team_id/time_entries?start_date={start_date}&end_date={end_date}&assignee=assignee_id%assignee_id%assignee_id%assignee_id%assignee_id&include_task_tags=true&include_location_names=true&custom_task_ids=true"
+    url=f"https://api.clickup.com/api/v2/team/team_id/time_entries?start_date={start_date}&end_date={end_date}&assignee={assignee_id}%{assignee_id}%{assignee_id}%{assignee_id}%{assignee_id}&include_task_tags=true&include_location_names=true&custom_task_ids=true"
 
     headers = {
         "accept": "application/json",
         "Content-Type": "application/json",
-        "Authorization": "authorization_token"
+        "Authorization": {authorization_token}
     }
 
     response = requests.get(url, headers=headers)
