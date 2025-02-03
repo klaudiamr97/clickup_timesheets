@@ -13,7 +13,7 @@ def fetch_task_ids(start_date, end_date):
     headers = {
         "accept": "application/json",
         "Content-Type": "application/json",
-        "Authorization": "suthorization_token"
+        "Authorization": "authorization_token"
     }
 
     response = requests.get(url, headers=headers)
